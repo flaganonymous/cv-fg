@@ -1,0 +1,853 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+<link href='https://fonts.googleapis.com/css?family=Lato|Roboto:400,500,400italic|Open+Sans:400,800italic|Oxygen:400,700|ABeeZee|Alegreya+Sans+SC:900italic|Chivo|Fugaz+One' rel='stylesheet' type='text/css'>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+ 
+    <title>CV Guilbert Jacquin Flavien</title>
+
+     <script src="js/jquery-2.1.4.js"></script>
+    <script src="sliderengine/amazingslider.js"></script>
+
+    <script src="sliderengine/initslider-1.js"></script>
+
+
+
+    <!-- Javascript de Bootstrap -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+       <link href="css/font-awesome.min.css" rel="stylesheet"> 
+	<script type="text/javascript">
+
+	
+$(document).ready(function(){
+    /* Get iframe src attribute value i.e. YouTube video url
+    and store it in a variable */
+    var url = $("#cartoonVideo").attr('src');
+    
+    /* Assign empty url value to the iframe src attribute when
+    modal hide, which stop the video playing */
+    $("#myModal").on('hide.bs.modal', function(){
+        $("#cartoonVideo").attr('src', '');
+    });
+    
+    /* Assign the initially stored url back to the iframe src
+    attribute when modal is displayed again */
+    $("#myModal").on('show.bs.modal', function(){
+        $("#cartoonVideo").attr('src', url);
+    });
+});
+</script>
+  </head>
+  <body>
+
+  	 <div class="container"> <div class="background">
+    <div class="head">
+   	<nav class="navbar navbar-inverse" role="navigation">
+      <div class="navbar-header">
+        <button type="button" id="nav-toggle" class="navbar-toggle" data-toggle="collapse" data-target="#main-nav"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+        <a href="#" class="navbar-brand scroll-top logo  animated bounceInLeft"><b><i><img src="images/logo.jpg"></i></b></a> </div>
+      <!--/.navbar-header-->
+      <div id="main-nav" class="collapse navbar-collapse">
+        <ul class="nav navbar-nav" id="mainNav">
+       <li class="active"> <a href="#">Accueil</a> </li>
+            <li> <a href="#block-1">Expèrience</a> </li>
+            <li> <a href="#web">Web</a> </li>
+            <li> <a href="#video2">Vidéo</a></li>
+            <li><a href="#block3">Compétences</a></li>
+            <li> <a href="#formations">Formations</a> </li>
+               <li> <a href="#footers">Informations personnelles </a> </li>
+         
+        </ul>
+      </div>
+      <!--/.navbar-collapse--> 
+    </nav>
+   	
+      </div>
+      <div class="info-perso">
+		<div class="row">
+  			<div class="col-xs-12 col-sl-6 col-md-8">
+  			<p class="nom">GUILBERT JACQUIN Flavien</p>
+  			<p class="nom">Développeur FullStack</p>
+  	
+  			</div>
+  			<div class="col-xs-0 col-sl-6 col-md-4"><img class="img-circle" src="images/flavien.png" alt="images" ></div>
+ 		</div>
+</div>
+    <div id="monCarousel" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#monCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#monCarousel" data-slide-to="1"></li>
+        <li data-target="#monCarousel" data-slide-to="2"></li>
+        <li data-target="#monCarousel" data-slide-to="3"></li>
+      </ol>
+
+
+  <div class="carousel-inner">
+    <div class="item active"> <img src="images/collage-dev.png" alt="Developpeur"> <h1 class="carousel-caption"></h1> </div>
+    <div class="item"> <img src="images/collage-graphiste.png" alt="Graphiste"> <h1 class="carousel-caption"></h1> </div>
+    <div class="item"> <img src="images/collage-video.png" alt="réalisateur"> <h1 class="carousel-caption"></h1> </div>
+	<div class="item"> <img src="images/collage-server.png" alt="admin"> <h1 class="carousel-caption"></h1> </div>
+  </div>
+  <a class="left carousel-control" href="#monCarousel" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+  </a>
+  <a class="right carousel-control" href="#monCarousel" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+  </a>
+  </div>
+  
+
+
+
+  <div class="titre"> <span class="glyphicon glyphicon-briefcase"></span> Mon Expèrience</div>
+ 
+ 
+<div id="block-1">
+	
+
+	<div class="row">
+   		<div class="col-xs-12 col-sl-6 col-md-4">
+   			<ul><img class="img-exp" src="images/mc.png"  alt="images"></ul>
+   				<h5>Septembre 2014 - Janvier 2015</h5>
+   					<li>Responsable Informatique</li>
+   					<li>Déploiement Solution GED (gestion éléctronique de documents ) chez les clients MC Conseil </li>
+   	
+			<ul><img class="img-exp" src="images/wed.jpg" alt="images"></ul>
+				<h5>Mai 2011 - A aujourd'hui</h5>
+   					<li>Membre associé / chargé de communication</li>
+				
+   					<li>Developpeur fullstack CMS PHP HTML5</li>
+					<li>Relation sponsoring</li>
+		
+   			
+   			<ul><img class="img-exp" src="images/com.jpg" alt="images"><img class="img-exp" src="images/kalla.png" alt="images"></ul>
+				<h5>Juin 2010 - Juin 2015</h5>
+   					<li>Fondateur gérant</li>
+					<li>Développeur Fullstack CMS PHP HTML 5</li>
+	   				<li>Chef de projets</li>
+					<li>Cadreur Monteur</li>
+   		</div>
+   		
+   		<div class="col-xs-12 col-sl-6 col-md-4">	
+			<ul><img class="img-exp" src="images/gm.jpeg"alt="images"></ul>
+				<h5>Juin 2009 - Juin 2010</h5>
+   					<li>Commercial solutions infrastructure et réseaux, pour les administrations et grands groupe</li>
+					<li>Commercialisation de solutions de Virtualisation </li>
+			<ul><img class="img-exp" src="images/vh.jpg"alt="images"></ul>
+				<h5>Mars 2007 - Juin 2009</h5>
+					<li>Responsable d'agence domaine VRD </li>
+					<li>Réalisation des études chiffrées </li>
+					<li>Commercial sédentaire </li>
+			<ul><img class="img-exp" src="images/kilou.jpg"alt="images"></ul>
+				<h5>Octobre 2005 - Mars 2007</h5>
+					<li>Commercial sédentaire</li>
+					<li>Responsable flote véhicule utilitaire</li>
+		</div>
+		
+   		<div class="col-xs-12 col-sl-6 col-md-4"><ul><img class="img-exp" src="images/pit.jpg"alt="images"</ul>
+				<h5>Janvier 2001 - Octobre 2005</h5>
+					<li>Chef de partie cuisine</li>
+					<li>Chef de partie cuisine Pizzaïolo</li>
+					<li>Responsable HACCP</li>
+	
+			<ul><img class="img-exp" src="images/buff.jpg" alt="images"></ul>
+				<h5>Aout 2000 - Octobre 2001</h5>
+					<li>Assistant Responsable</li>
+					<li>Responsable de salle</li>
+					<li>Responsable HACCP</li>
+			<ul><img class="img-exp" src="images/court.jpg"alt="images"></ul>
+				<h5>Fevrier 1998 - Aout 2000</h5>
+					<li>Adjoint Résponsable</li>
+					<li>Résponsable de salle</li>
+					<li>Responsable HACCP</li>
+		</div>
+		</div>    
+		</div>
+
+
+ 	<div class="titre2"><span class="glyphicon glyphicon-cloud-upload"></span> Mes réalisations Web</div>
+ 			<center><h6>Vous trouverez dans ce tableau la majorité de mes réalisations Web</h6></center>
+ 			<div id="web">
+ 		
+ 			 <div class="row">
+       			 <section class="col-sm-12 table-responsive">
+        			<div class="tableau">
+          				<table class="table table-bordered table-responsive">
+           			
+            					<thead>
+					              <tr>
+					                <th>Année</th>
+					                <th>Clients</th>
+					                <th>Travaux réalisés</th>
+					                <th>Langages utilisés</th>
+					                <th>En ligne ?</th>
+					                <th>Lien</th>
+					              </tr>
+           						 </thead>
+							           	 <tbody>
+							              <tr>
+							                <td>2009-2011</td>
+							                <td>Cuisine et cadeaux</td>
+							                <td>création site vitrine pour magasin ustenciles de cuisine</td>
+							                <td>Html et Php</td>
+							                <td>non</td>
+							                <td>
+							                		 	<a href="#myModal" class="btn btn-sl btn-primary" data-toggle="modal"><span class="glyphicon glyphicon-share-alt"></span> Sites Hors ligne</a>
+											        <div id="myModal" class="modal fade">
+											        <div class="modal-dialog">
+											            <div class="modal-content">
+											                <div class="modal-header">
+											                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+											                    <h4 class="modal-title">sites hors ligne</h4>
+											                </div>
+											                <div class="modal-body">
+											                	<p>Retrouvez dans cette vidéo les sites que j'ai réalisés et qui sont aujourd'hui hors ligne</p>
+											                    <iframe id="cartoonVideo" width="560" height="315"  src="https://player.vimeo.com/video/140420065?color=ff9933&title=0&byline=0&portrait=0"frameborder="0" allowfullscreen></iframe>   
+											                </div>
+											            </div>
+											        </div>
+											    </div>
+							                </td>
+							              </tr>
+							              <tr>
+							                <td>2009-2014</td>
+							                <td>Com2yoo</td>
+							                <td>Création et mise à jour du site de ma socièté Com2yoo, modification de plugin Joomla puis de wordpress développement de thème.</td>
+							                <td>Joomla / Wordpress </td>
+							                <td>non</td>
+							                 <td>
+							                 		 	<a href="#myModal" class="btn btn-sl btn-primary" data-toggle="modal"><span class="glyphicon glyphicon-share-alt"></span> Sites Hors ligne</a>
+											        <div id="myModal" class="modal fade">
+											        <div class="modal-dialog">
+											            <div class="modal-content">
+											                <div class="modal-header">
+											                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+											                    <h4 class="modal-title">sites hors ligne</h4>
+											                </div>
+											                <div class="modal-body">
+											                    <iframe id="cartoonVideo" width="560" height="315"  src="https://player.vimeo.com/video/140420065?color=ff9933&title=0&byline=0&portrait=0" frameborder="0" allowfullscreen></iframe>   
+											                </div>
+											            </div>
+											        </div>
+											    </div>
+							                 </td>
+							              </tr>
+							              
+							              <tr>
+							                <td>2010-2012</td>
+							                <td>Andi House Medias Arts</td>
+							                <td>Création site E-commerce avec blog integré, réalisation de plugins pour le vote pour des artistes.</td>
+							                <td>Html / Php / Wordpress</td>
+							                <td>non</td>
+							                 <td>
+							                 		 	<a href="#myModal" class="btn btn-sl btn-primary" data-toggle="modal"><span class="glyphicon glyphicon-share-alt"></span> Sites Hors ligne</a>
+											        <div id="myModal" class="modal fade">
+											        <div class="modal-dialog">
+											            <div class="modal-content">
+											                <div class="modal-header">
+											                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+											                    <h4 class="modal-title">sites hors ligne</h4>
+											                </div>
+											                <div class="modal-body">
+											                    <iframe id="cartoonVideo" width="560" height="315"  src="https://player.vimeo.com/video/140420065?color=ff9933&title=0&byline=0&portrait=0" frameborder="0" allowfullscreen></iframe>   
+											                </div>
+											            </div>
+											        </div>
+											    </div>
+							                 </td>
+							                
+							              </tr>
+							              <tr>
+							                <td>2010-2015</td>
+							                <td>Trivial Compost</td>
+							                <td>Création du site de l'association</td>
+							                <td>Wordpress / Html</td>
+							                <td>oui</td>
+							                 <td><a href="http://trivialcompost.org" target="_blank" class="btn btn-primary btn-success"><span class="glyphicon glyphicon-share-alt"></span> Trivial compost</a></td>
+							              </tr>
+							              <tr>
+							                <td>2011-2015</td>
+							                <td>P6 energy</td>
+							                <td>Création du site internet vitrine et e-commerce pour la boisson P6 energy</td>
+							                <td>Wordpress / Prestashop / aujourd'hui Html 5</td>
+							                <td>oui</td>
+							                 <td><a href="http://energy-a-revendre.com" target="_blank" class="btn btn-primary btn-success"><span class="glyphicon glyphicon-share-alt"></span> P6 energy</a></td>
+							              </tr>
+							              <tr>
+							                <td>2011-2013</td>
+							                <td>K2 xtreme photography</td>
+							                <td>Création d'un site pour photographe avec vente en ligne de photos</td>
+							                <td>Wordpress / Php + modification plugin Jalbum </td>
+							                <td>non</td>
+							                 <td>
+							                 		 	<a href="#myModal" class="btn btn-sl btn-primary" data-toggle="modal"><span class="glyphicon glyphicon-share-alt"></span> Sites Hors ligne</a>
+											        <div id="myModal" class="modal fade">
+											        <div class="modal-dialog">
+											            <div class="modal-content">
+											                <div class="modal-header">
+											                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+											                    <h4 class="modal-title">sites hors ligne</h4>
+											                </div>
+											                <div class="modal-body">
+											                    <iframe id="cartoonVideo" width="560" height="315"  src="https://player.vimeo.com/video/140420065?color=ff9933&title=0&byline=0&portrait=0" frameborder="0" allowfullscreen></iframe>   
+											                </div>
+											            </div>
+											        </div>
+											    </div>
+							                 </td>
+							              </tr>
+							              <tr>
+							              	<td>2012-2014</td>
+							              	<td>Kallaghan Production</td>
+							              	<td>Création site pour agence création vidéo, intégration vidéo, mise en place d'un serveur de streaming</td>
+							              	<td>Wordpress / Php / création plugin vidéo pour wordpress</td>
+							              	<td>non</td>
+							              	 <td> 
+							              	 	<a href="#myModal" class="btn btn-sl btn-primary" data-toggle="modal"><span class="glyphicon glyphicon-share-alt"></span> Sites Hors ligne</a>
+											        <div id="myModal" class="modal fade">
+											        <div class="modal-dialog">
+											            <div class="modal-content">
+											                <div class="modal-header">
+											                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+											                    <h4 class="modal-title">sites hors ligne</h4>
+											                </div>
+											                <div class="modal-body">
+											                    <iframe id="cartoonVideo" width="560" height="315"  src="https://player.vimeo.com/video/140420065?color=ff9933&title=0&byline=0&portrait=0" frameborder="0" allowfullscreen></iframe>   
+											                </div>
+											            </div>
+											        </div>
+											    </div>
+											    </td>
+							              </tr>
+							              <tr>
+							              	<td>2012-2014</td>
+							              	<td>Kallaghan shop</td>
+							              	<td>Création site e-commerce pour vente de Caméra de sport "type" Gopro</td>
+							              	<td>Prestashop</td>
+							              	<td>non</td>
+							              	 <td> <a href="#myModal" class="btn btn-sl btn-primary" data-toggle="modal"><span class="glyphicon glyphicon-share-alt"></span> Sites Hors ligne</a>
+    											    <div id="myModal" class="modal fade">
+											        <div class="modal-dialog">
+											            <div class="modal-content">
+											                <div class="modal-header">
+											                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+											                    <h4 class="modal-title">sites hors ligne</h4>
+											                </div>
+											                <div class="modal-body">
+											                    <iframe id="cartoonVideo" width="560" height="315"  src="https://player.vimeo.com/video/140420065?color=ff9933&title=0&byline=0&portrait=0" frameborder="0" allowfullscreen></iframe>   
+											                </div>
+											            </div>
+											        </div>
+											    </div></td>
+										  </tr>
+										  <tr>
+										  	<td>2012-2014</td>
+										  	<td>APHD</td>
+										  	<td>Création site pour architecte et maitre d'oeuvre </td>
+										  	<td>Wordpress</td>
+										  	<td>non</td>
+										  	 <td> <a href="#myModal" class="btn btn-sl btn-primary" data-toggle="modal"><span class="glyphicon glyphicon-share-alt"></span> Sites Hors ligne</a>
+    
+										    <div id="myModal" class="modal fade">
+										        <div class="modal-dialog">
+										            <div class="modal-content">
+										                <div class="modal-header">
+										                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+										                    <h4 class="modal-title">sites hors ligne</h4>
+										                </div>
+										                <div class="modal-body">
+										                    <iframe id="cartoonVideo" width="560" height="315"  src="https://player.vimeo.com/video/140420065?color=ff9933&title=0&byline=0&portrait=0" frameborder="0" allowfullscreen></iframe>   
+										                </div>
+										            </div>
+										        </div>
+										    </div></td>
+										 </tr>
+										 <tr>
+										 	<td>2013-2015</td>
+										 	<td>8611.tv</td>
+										 	<td>Création site pour une agence évenementiel</td>
+										 	<td>Wordpress</td>
+										 	<td>oui</td>
+										 	 <td><a href="http://8611tv.com" target="_blank" class="btn btn-primary btn-success"><span class="glyphicon glyphicon-share-alt"></span> 8611</a></td>
+							 			 </tr>
+							 			 <tr>
+							 			 	<td>2014-2015 </td>
+							 			 	<td>adiep</td>
+							 			 	<td>Création site pour association de défence contre les banques</td>
+							 			 	<td>Wordpress</td>
+							 			 	<td>oui</td>
+							 			 	 <td><a href="http://adiep.fr" target="_blank" class="btn btn-primary btn-success"><span class="glyphicon glyphicon-share-alt"></span> Adiep</a></td>
+							 			 </tr>
+							 			 <tr><td>
+							 			 	2015
+							 			 </td>
+							 			 <td>Kalybois</td>
+							 			 <td>Création site pour constructeur de maison en bloc préfabriqué</td>
+							 			 <td>Html5 / bootstrap</td>
+							 			 <td>oui</td>
+							 			  <td><a href="http://kalybois.com" target="_blank" class="btn btn-primary btn-success"><span class="glyphicon glyphicon-share-alt"></span> Lien Kalybois</a></td>
+							 			 </tr>
+							            </tbody>
+          				</table>
+            
+            </section> 
+
+
+</div>
+</div>
+ <div class="row">
+	<div class="col-xs-12 col-sl-12 col-md-12"> 
+		<div class="titre"><span class="glyphicon glyphicon-film"></span> Mes réalisations Vidéos
+		</div>
+	</div>
+</div>
+
+<div id="video2"> 
+<h6>Retrouvez dans le lecteur vidéo ci-dessous l'ensemble de mes réalisations Vidéos</h6>
+	       <div id="amazingslider-wrapper-1" style="display:block;position:relative;max-width:700px; min-width: 300px; margin:0px auto 48px;padding-top:40px;">
+        <div id="amazingslider-1" style="display:block;position:relative;margin:0 auto;">
+            <ul class="amazingslider-slides" style="display:none;">
+                <li><img src="images/107693328.jpg" alt="Olymp&apos;Loue Universki 2014" data-description="Vidéo de l&apos;événement Olymp&apos;Loue
+Rencontre entre sportifs professionnels et chefs d&apos;entreprises" />
+                <video preload="none" src="http://player.vimeo.com/video/107693328" ></video>
+                </li>
+                <li><img src="images/44931862.jpg" alt="Cube Action Team Vs Alpe d&apos;Huez" />
+                <video preload="none" src="http://player.vimeo.com/video/44931862" ></video>
+                </li>
+                <li><img src="images/colors-by-tybelt.jpg" alt="Tybelt" data-description="Vidéo pour les ceintures  Tybelt" />
+                <video preload="none" src="http://player.vimeo.com/video/77279277" ></video>
+                </li>
+                <li><img src="images/92822463.jpg" alt="Trip N&apos; Doubs 2014" data-description="Course Multi Sport à Besancon 2014
+Vidéo Officielle" />
+                <video preload="none" src="http://player.vimeo.com/video/92822463" ></video>
+                </li>
+                <li><img src="images/98740970.jpg" alt="P6 Energy Racing Team" data-description="interview Erwan Bardoux" />
+                <video preload="none" src="http://player.vimeo.com/video/98740970" ></video>
+                </li>
+                <li><img src="images/logo-megavalance.png" alt="Mégavalanche Course 2013" data-description="Course Master
+Vidéo Officielle" />
+                <video preload="none" src="http://player.vimeo.com/video/77279275" ></video>
+                </li>
+                <li><img src="images/PUB-FACEBOOK-04-02-13.jpg" alt="Avalanche Cup 2013 Lyon" data-description="Vidéo Officielle" />
+                <video preload="none" src="http://player.vimeo.com/video/65150899" ></video>
+                </li>
+                <li><img src="images/mega2rxenduro.jpg" alt="Mega2rx Vallnord 2013" data-description="Course Mega2rx Andorre 2013
+Vidéo Officielle" />
+                <video preload="none" src="http://player.vimeo.com/video/69540130" ></video>
+                </li>
+                <li><img src="images/transv.png" alt="Course Transvesubienne 2013" data-description="Video Officielle Transvesubienne" />
+                <video preload="none" src="images/Transvesubienne 2013.mp4" ></video>
+                </li>
+                <li><img src="images/mega2rxenduro.jpg" alt="MEGA2RX CERVINIA 2013" data-description="Video Officielle" />
+                <video preload="none" src="images/MEGA2RX CERVINIA 2013.mp4" ></video>
+                </li>
+                <li><img src="images/endurosemoy14.jpg" alt="Vidéo Enduro de la Semoy 2014" data-description="After Movie
+Vidéo Officielle" />
+                <video preload="none" src="images/Vidéo Enduro de la Semoy 2014.mp4" ></video>
+                </li>
+                <li><img src="images/endurosemoy2013.jpg" alt="Vidéo Enduro de la Semoy 2013" data-description="After Movie
+Vidéo Officielle" />
+                <video preload="none" src="images/Vidéo Enduro de la Semoy 2013 - After Movie.mp4" ></video>
+                </li>
+                <li><img src="images/118621803.jpg" alt="Labesse Valdahon" data-description="Course Moto Cross à Valdahon 2014" />
+                <video preload="none" src="http://player.vimeo.com/video/118621803" ></video>
+                </li>
+                <li><img src="images/523212_116741225129005_1126398875_n.jpg" alt="Vidéo La Souche Trail 2013" data-description="Vidéo Trail Bmx" />
+                <video preload="none" src="images/Vidéo La Souche Trail 2013.mp4" ></video>
+                </li>
+                <li><img src="images/61954007.jpg" alt="Trip N&apos;Loue Raid" data-description="Teaser 2013" />
+                <video preload="none" src="http://player.vimeo.com/video/61954007" ></video>
+                </li>
+                <li><img src="images/82224653.jpg" alt="10 Km D&apos;HERICOURT 2013" data-description="Vidéo Officielle" />
+                <video preload="none" src="http://player.vimeo.com/video/82224653" ></video>
+                </li>
+            </ul>
+            <ul class="amazingslider-thumbnails" style="display:none;">
+                <li><img src="images/107693328-tn.jpg" alt="Olymp&apos;Loue Universki 2014" /></li>
+                <li><img src="images/44931862-tn.jpg" alt="Cube Action Team Vs Alpe d&apos;Huez" /></li>
+                <li><img src="images/colors-by-tybelt-tn.jpg" alt="Tybelt" /></li>
+                <li><img src="images/92822463-tn.jpg" alt="Trip N&apos; Doubs 2014" /></li>
+                <li><img src="images/98740970-tn.jpg" alt="P6 Energy Racing Team" /></li>
+                <li><img src="images/logo-megavalance-tn.png" alt="Mégavalanche Course 2013" /></li>
+                <li><img src="images/PUB-FACEBOOK-04-02-13-tn.jpg" alt="Avalanche Cup 2013 Lyon" /></li>
+                <li><img src="images/mega2rxenduro-tn.jpg" alt="Mega2rx Vallnord 2013" /></li>
+                <li><img src="images/transv-tn.png" alt="Course Transvesubienne 2013" /></li>
+                <li><img src="images/mega2rxenduro-tn.jpg" alt="MEGA2RX CERVINIA 2013" /></li>
+                <li><img src="images/endurosemoy14-tn.jpg" alt="Vidéo Enduro de la Semoy 2014" /></li>
+                <li><img src="images/endurosemoy2013-tn.jpg" alt="Vidéo Enduro de la Semoy 2013" /></li>
+                <li><img src="images/118621803-tn.jpg" alt="Labesse Valdahon" /></li>
+                <li><img src="images/523212_116741225129005_1126398875_n-tn.jpg" alt="Vidéo La Souche Trail 2013" /></li>
+                <li><img src="images/61954007-tn.jpg" alt="Trip N&apos;Loue Raid" /></li>
+                <li><img src="images/82224653-tn.jpg" alt="10 Km D&apos;HERICOURT 2013" /></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="titre"><span class="glyphicon glyphicon-tasks"></span> Compétences Informatique</div>
+<div id="block3">
+	
+	<div class="row">
+   	<h6>Voici une liste non exostive de mes compétences informatique</h6>
+	<h6>(tests réalisés sur Smarterer)</h6>
+   		 	<div class="col-xs-12 col-sl-4 col-md-4 col-sl-offset-1"><div class="jumbotron"><div class="jumbo-titre" >Front-End</div>
+   		 		<ul><h4>HTML 5</h4><img class="img2" src="images/css3-html5-logo-initial.png" alt="images"></ul>
+					   	 		 <div class="progress">
+					  <div class="progress-bar progress-bar-striped active" role="progressbar"
+					  aria-valuenow="55" aria-valuemin="0" aria-valuemax="100" style="width:85%">
+					    Trés bonne maitrise
+					  </div>
+					</div>
+					   	 		<ul><h4>CSS 3</h4><img class="img2" src="images/css3.jpg" alt="images"></ul>
+					   	 		 <div class="progress">
+					  <div class="progress-bar progress-bar-striped active" role="progressbar"
+					  aria-valuenow="55" aria-valuemin="0" aria-valuemax="100" style="width:85%">
+					  Trés bonne maitrise
+					  </div>
+					</div>
+					   		 		<ul><h4>BOOTSTRAP</h4><img class="img2" src="images/boots.jpeg" alt="images"></ul>
+					   		 		 <div class="progress">
+					  <div class="progress-bar progress-bar-striped active" role="progressbar"
+					  aria-valuenow="65" aria-valuemin="0" aria-valuemax="100" style="width:80%">
+					    Trés bonne maitrise
+					  </div>
+					</div>
+					   		 		<ul><h4>WORDPRESS</h4><img class="img2" src="images/wordp.png" alt="images"></ul>
+					   		 		 <div class="progress">
+					  <div class="progress-bar progress-bar-striped active" role="progressbar"
+					  aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:80%">
+				    Trés bonne maitrise
+					  </div>
+					</div>
+					   		 		<ul><h4>Javascript</h4><img class="img2" src="images/JS.png" alt="images"></ul>
+					   		 		 <div class="progress">
+					  <div class="progress-bar progress-bar-striped active" role="progressbar"
+					  aria-valuenow="55" aria-valuemin="0" aria-valuemax="100" style="width:70%">
+					Bonne maitrise
+					  </div>
+					</div>
+					   		 		<ul><h4>PRESTASHOP</h4><img class="img2" src="images/prestashop.jpg" alt="images"></ul>
+					   		 		 <div class="progress">
+					  <div class="progress-bar progress-bar-striped active" role="progressbar"
+					  aria-valuenow="55" aria-valuemin="0" aria-valuemax="100" style="width:65%">
+					 Bonne maitrise
+					  </div>
+					</div>
+					</div>
+				</div>
+					   	 	<div class="col-xs-12 col-sl-4 col-md-4 col-sl-offset-1"> <div class="jumbotron"> <div class="jumbo-titre">Back-end</div><ul><h4>PHP</h4><img class="img2" src="images/php.jpeg" alt="images"></ul>
+   		 		 <div class="progress">
+					  <div class="progress-bar progress-bar-striped active" role="progressbar"
+					  aria-valuenow="55" aria-valuemin="0" aria-valuemax="100" style="width:70%">
+					  Bonne maitrise
+					  </div> 
+					</div>
+					
+					
+					   	 		
+					   	 		<ul><h4>MYSQL</h4><img class="img2" src="images/mysql-500x308.jpg"alt="images"></ul>
+					   	 		 <div class="progress">
+					  <div class="progress-bar progress-bar-striped active" role="progressbar"
+					  aria-valuenow="55" aria-valuemin="0" aria-valuemax="100" style="width:85%">
+					   Trés bonne maitrise
+					  </div>
+					</div>
+		
+					    	 		<ul><h4>IIS</h4><img class="img2" src="images/windows-server.jpg" alt="images"></ul>
+					   	 		 <div class="progress">
+					  <div class="progress-bar progress-bar-striped active" role="progressbar"
+					  aria-valuenow="55" aria-valuemin="0" aria-valuemax="100" style="width:80%">
+					Trés bonne maitrise
+					  </div>
+					</div>
+						<ul><h4>LAMP</h4><img class="img2" src="images/lamp.gif"alt="images"></ul>
+					   	 		 <div class="progress">
+					  <div class="progress-bar progress-bar-striped active" role="progressbar"
+					  aria-valuenow="55" aria-valuemin="0" aria-valuemax="100" style="width:70%">
+					 Bonne maitrise
+					  </div>
+					</div>
+					 <ul><h4>Cent Os</h4><img class="img2" src="images/centos_1.png"alt="images"></ul>
+					   	 		 <div class="progress">
+					  <div class="progress-bar progress-bar-striped active" role="progressbar"
+					  aria-valuenow="55" aria-valuemin="0" aria-valuemax="100" style="width:70%">
+					 Bonne maitrise
+					  </div>
+					</div>
+					<ul><h4>C#</h4><img class="img2" src="images/csharp.png" alt="images"></ul>
+					   	 		 <div class="progress">
+					  <div class="progress-bar progress-bar-striped active" role="progressbar"
+					  aria-valuenow="55" aria-valuemin="0" aria-valuemax="100" style="width:50%">
+					Familier
+					  </div>
+					</div>
+				</div>
+					   	 	</div>
+					
+					   	 	<div class="col-xs-12 col-sl-4 col-md-4 col-sl-offset-1 "><div class="jumbotron"> <div class="jumbo-titre">Graphisme</div> <ul><h4>PHOTOSHOP </h4><img class="img2" src="images/05663846-photo-logo-icone-adobe-photoshop-cs6.jpg.png" alt="images"></ul>
+					   	 		 <div class="progress">
+					  <div class="progress-bar progress-bar-striped active" role="progressbar"
+					  aria-valuenow="55" aria-valuemin="0" aria-valuemax="100" style="width:90%">
+					   Trés bonne maitrise
+					  </div>
+					</div>
+					   	 		<ul><h4>ILLUSTRATOR </h4><img class="img2" src="images/adobe-illustrator-logo.png" alt="images"></ul>
+					   	 		 <div class="progress">
+					  <div class="progress-bar progress-bar-striped active" role="progressbar"
+					  aria-valuenow="55" aria-valuemin="0" aria-valuemax="100" style="width:55%">
+					    Familier
+					  </div>
+					</div>
+					   	 		<ul><h4>AFTER EFFECT </h4><img class="img2" src="images/Adobe_After_Effects_CS6_Icon.png" alt="images"></ul>
+					   	 		 <div class="progress">
+					  <div class="progress-bar progress-bar-striped active" role="progressbar"
+					  aria-valuenow="55" aria-valuemin="0" aria-valuemax="100" style="width:80%">
+					    Trés bonne maitrise
+					  </div>
+					</div>
+					   	 		<ul><h4>PREMIERE </h4><img class="img2" src="images/premiere-cs6-logo.png" alt="images"></ul>
+					   	 		 <div class="progress">
+					  <div class="progress-bar progress-bar-striped active" role="progressbar"
+					  aria-valuenow="55" aria-valuemin="0" aria-valuemax="100" style="width:65%">
+					    Bonne maitrise
+					  </div>
+					</div>
+					   	 		<ul><h4>FINALCUT</h4><img class="img2" src="images/FCPX_logo_1.png" alt="images"></ul>
+					   	 		 <div class="progress">
+					  <div class="progress-bar progress-bar-striped active" role="progressbar"
+					  aria-valuenow="55" aria-valuemin="0" aria-valuemax="100" style="width:85%">
+					   Trés bonne maitrise
+					  </div>
+					</div>
+					<ul><h4>Cinema 4D </h4><img class="img2" src="images/maxon_c4d_logo.png" alt="images"></ul>
+					   	 		 <div class="progress">
+					  <div class="progress-bar progress-bar-striped active" role="progressbar"
+					  aria-valuenow="55" aria-valuemin="0" aria-valuemax="100" style="width:50%">
+					 Familier
+					  </div>
+					</div>
+				</div>
+		</div>
+		</div>  	 	
+   </div>
+
+</div>
+	
+	<div class="row">
+   			<div class="col-xs-12 col-sl-12 col-md-12"> 
+   				<div class="titre2"><span class=" glyphicon glyphicon-education"></span> Formations</div>
+			</div>
+</div>
+<center><h6>Vous trouverez dans cette section l'ensemble de mes formations ainsi que mes certifications.</h6>
+</center>
+ 		
+<div id="formations">
+	<div class="row">
+ 			 				<div class="col-xs-12 col-sl-6 col-md-4"> <img class="img2" src="images/logo_blog.png" alt="images"></> <h3>Certification Intégrateur Web Septembre 2015 </h3></div>
+		   	 	<div class="col-xs-12 col-sl-6 col-md-4"> <img class="img2" src="images/logo_blog.png" alt="images"></> <h3>Certification Bootstrap 3 Septembre 2015</h3> </div>
+		   	 	<div class="col-xs-12 col-sl-6 col-md-4"> <img class="img2" src="images/logo_blog.png" alt="images"></><h3>Certification Html5 et CSS3  <p>juillet 2015</p> </h3></div>
+		    </div>  
+		    <div class="row">
+		    				<div class="col-xs-12 col-sl-6 col-md-4"> <img class="img2" src="images/ezged.jpg" alt="images"> <h3>Formation EZGED Mysql Python Html5 <p>Septembre 2014 MC CONSEIL</p></h3></div>
+		   	 	<div class="col-xs-12 col-sl-6 col-md-4"><img class="img2" src="images/tuto_white.jpg" alt="images"> <h3>16 Formations Photoshop cs5/cs6  <p>Septembre 2009 Aout 2014</p> </h3> </div>
+		   	 	<div class="col-xs-12 col-sl-6 col-md-4"><img class="img2" src="images/tuto_white.jpg" alt="images"> <h3>41 Formations After Effect cs5/cs6  <p>Septembre 2009 Aout 2014</p> </h3> </div>
+		   	 	
+		    </div>
+		    <div class="row">
+		    	<div class="col-xs-12 col-sl-6 col-md-4"><img class="img2" src="images/sst.png" alt="images"><h3> Formation du secouriste Niveau 1 et 2 <p>2007 et 2009</p></h3>  </div>
+		    	<div class="col-xs-12 col-sl-6 col-md-4"><img class="img2" src="images/NEC_logo.jpg" alt="images"><h3>Formation Commercial Nec IT <p>2009</p></h3></div>
+		    	<div class="col+xs-12 col-sl-6 col-md-4"><img class="img2" src="images/accord.jpg" alt="images"><h3>Equivalence Bac+2 Gestion et Management Restauration Academie Accor<p>1999-2000</p></h3></div>
+		    </div>
+		    <div class="row">
+		    	<div class="col-xs-12 col-sl-6 col-md-4"><img class="img2" src="images/estic.png" alt="images"><h3>Baccalaureat STT Comptabilité et gestion <p>1999</p></h3></div>
+		    	<div class="col-xs-12 col-sl-6 col-md-4"><img class="img2" src="images/estic.png" alt="images"><h3>BEP Comptabilité<p>1997</p></h3></div>
+		    	<div class="col-xs-12 col-sl-6 col-md-4"><img class="img2" src="images/estic.png" alt="images"><h3>Brevet des collèges<p>1995</p></h3></div>
+		    </div>
+</div>
+
+   
+  
+   <footer><div id="footers"></div><div class="titre"><span class="glyphicon glyphicon-user"></span> Informations personnelles</div>
+<div class="foot">
+   		<div class="row">
+ 			<div class="col-xs-12 col-sl-6 col-md-4 ">
+ 			<div class="jumbotron">
+   		<div class="jumbo-titre">GUILBERT JACQUIN FLAVIEN</div>
+   					<div class="div-foot "> 
+   					<p>Né le 05 Aout 1979</p>
+		  			<p><i class="fa fa-map"></i> 9 rue du barrage 25220 Roche lez beaupré</p>
+		  			<p><span class=" glyphicon glyphicon-earphone"></span> 07 61 04 05 08</p>
+		  			<p><a href="#myModal2" class="btn btn-sl btn-info" data-toggle="modal"><span class=" glyphicon glyphicon-envelope"></span> contactez moi</a>
+											        <div id="myModal2" class="modal fade">
+											        <div class="modal-dialog">
+											            <div class="modal-content">
+											                <div class="modal-header">
+											                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+											                    
+											                </div>
+											                <div class="modal-body">
+											                   <form class="form-horizontal">
+<fieldset>
+
+
+<legend>Contactez moi</legend>
+
+    <form action="envoyer.php" id="contact" method="POST">
+        <p>
+                      <div class="form-group">
+  <label class="col-md-4 control-label" for="nom">Votre nom</label>  
+  <div class="col-md-6">
+  <input id="nom" name="nom" placeholder="Votre nom" class="form-control input-lg" required="" type="text">
+  </div>
+					</div>
+            <span id="msg_nom"></span>
+        </p>
+        <p>
+           <div class="form-group">
+  <label class="col-md-4 control-label" for="sujet">Téléphone</label>  
+  <div class="col-md-6">
+  <input id="sujet" name="sujet" placeholder="Téléphone" class="form-control input-md" required="" type="tel">
+    
+  </div>
+</div>
+            <span id="msg_sujet"></span>
+        </p>
+        <p>
+            <div class="form-group">
+  <label class="col-md-4 control-label" for="email">Votre mail</label>  
+  <div class="col-md-6">
+  <input id="email" name="email" placeholder="Votre mail" class="form-control input-md" required="" type="mail">
+    
+  </div>
+</div>
+            <span id="msg_email"></span>
+        </p>
+        <p>
+            <div class="form-group">
+  <label class="col-md-4 control-label" for="message">Votre message</label>
+  <div class="col-md-6">                     
+    <textarea class="form-control" id="message" name="message">message</textarea>
+  </div>
+</div>
+           <span id="msg_message"></span>
+        </p>
+        <p>
+            <input type="submit" value="Envoyer" />
+        </p>
+    </form>
+    <span id="msg_all"></span> 		             
+</div>
+										        </div>
+											        </div>
+											    </div></p>
+											    </fieldset>
+</form>
+		  			<p><a href="https://fr.linkedin.com/pub/flavien-guilbert/106/165/756">  <i class="fa fa-linkedin-square"></i>
+ Linkedin</a></p>
+		  			<p><a href="https://vimeo.com/user9133990"><i class="fa fa-vimeo"></i>
+ Viméo</a></p>
+		  		</div> </div></div>
+		  	
+		  	<div class="col-xs-12 col-sl-6 col-md-4 ">
+		  		<div class="jumbotron">
+   			<div class="jumbo-titre">Langues</div>
+   			<div class="div-foot "> 
+   			<p> Anglais </p><img class="img3" src="images/anglais.gif" alt="images">
+   			
+   			<p> Italien</p><img class="img3" src="images/italien.png" alt="images">
+   	
+   						<div class="jumbo-titre">Divers</div>
+   					
+   						<p><i class="fa fa-car"></i>
+Permis B</p>
+   		   						<p><i class="fa fa-medkit"></i>
+Secoursite du travail</p>
+   						
+  				</div></div></div>
+  					 <div class="col-xs-12 col-sl-6 col-md-4 ">
+  					 		<div class="jumbotron"><div class="div-foot "> 
+  					 	<div class="jumbo-titre">Sport</div>
+
+  					 	<p><i class="fa fa-futbol-o"></i>
+Football (Club Emagny) </p>
+  					 	<p><i class="fa fa-star-o"></i>
+Snowboard</p>
+  					 	<p><i class="fa fa-star-o"></i>
+Wakeboard</p>
+  					 	<p><i class="fa fa-bicycle"></i>
+VTT</p>
+  					 	<div class="jumbo-titre">Centre d'intérets</div>
+  					 	<p></p>
+  					 	<p><i class="fa fa-book"></i>
+Lecture SF</p>
+  			  		    <i class="fa fa-video-camera"></i>
+Photos et vidéos</p>
+  			
+  					 	</div>
+  					 </div>
+  					 </div>
+  				</div></div>
+   	</div>
+   </footer>
+  </body>
+  
+  <script>
+  	
+      // Scrollspy fluide
+      $(function () {
+        $('header a').on('click', function(e) {
+          e.preventDefault();
+          var hash = this.hash;
+          $('html, body').animate({
+            scrollTop: $(this.hash).offset().top
+          }, 1000, function(){
+            window.location.hash = hash;
+          });
+        });
+      });
+
+  </script>
+   <script>
+        $(function(){
+            $("#contact").submit(function(event){
+                var nom        = $("#nom").val();
+                var sujet      = $("#sujet").val();
+                var email      = $("#email").val();
+                var message    = $("#message").val();
+                var dataString = nom + sujet + email + message;
+                var msg_all    = "Merci de remplir tous les champs";
+                var msg_alert  = "Merci de remplir ce champs";
+
+                if (dataString  == "") {
+                    $("#msg_all").html(msg_all);
+                } else if (nom == "") {
+                    $("#msg_nom").html(msg_alert);
+                } else if (sujet == "") {
+                    $("#msg_sujet").html(msg_alert);
+                } else if (email == "") {
+                    $("#msg_email").html(msg_alert);
+                } else if (message == "") {
+                    $("#msg_message").html(msg_alert);
+                } else {
+                    $.ajax({
+                        type : "POST",
+                        url: $(this).attr("action"),
+                        data: $(this).serialize(),
+                        success : function() {
+                            $("#contact").html("<p>Formulaire bien envoyé</p>");
+                        },
+                        error: function() {
+                            $("#contact").html("<p>Erreur d'appel, le formulaire ne peut pas fonctionner</p>");
+                        }
+                    });
+                }
+
+                return false;
+            });
+        });
+    </script>
+</html>
